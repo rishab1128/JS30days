@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Drum-kit</title>
+    <link rel="stylesheet" href="/static/styles/drumKit.css"> 
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">clap</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">hithat</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="/static/sounds/clap.wav"></audio>
+    <audio data-key="83" src="/static/sounds/hithat.wav"></audio>
+    <script src="app.js"></script>
+    
+</body>
+</html>
