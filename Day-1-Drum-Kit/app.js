@@ -47,6 +47,11 @@ keys.forEach((key)=>{
 })
 
 function removeTransition(e){
-    console.log(e , e.target);
+    console.log(e); //On console window we see 6 event objects (TransitionEvents) because of the color-change of the 4-borders of the button + 1 because of box-shadow + 1 because of transform
+
     e.target.classList.remove('playing');
+
+    //Aternative way for  : e.target.classList.remove('playing'); is
+    //console.log(this);
+    //this.classList.remove('playing');  //Since key is calling the addEventListener func , therfore this =  key
 }
