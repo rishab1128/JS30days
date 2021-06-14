@@ -49,7 +49,7 @@ Internet Explorer 9, Firefox, Opera, Chrome, and Safari support <canvas> and its
 
 ### `checklist`
 
-1. -[ ] [JavaScript Drum Kit](https://github.com/akinjide/JS30days/blob/master/views/drumKit.jade)
+1. [x] ~~[JavaScript Drum Kit](https://github.com/akinjide/JS30days/blob/master/views/drumKit.jade)~~
 2. -[ ] [JS + CSS Clock](https://github.com/akinjide/JS30days/blob/master/views/clock.jade)
 3. -[ ] [Playing with CSS Variables and JS](https://github.com/akinjide/JS30days/blob/master/views/cssJs.jade)
 4. -[ ] [Array Cardio, Day 1](https://github.com/akinjide/JS30days/blob/master/views/cardio.jade)
